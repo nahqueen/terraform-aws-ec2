@@ -15,7 +15,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "example_bucket" {
-  bucket = "your-unique-bucket-name-omba"
+  bucket = "your-unique-bucket-name-omba1"
   
   tags = {
     Name        = "Example Bucket"
